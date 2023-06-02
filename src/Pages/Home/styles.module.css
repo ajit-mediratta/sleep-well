@@ -1,0 +1,160 @@
+.bannerGroupContainer {
+  @apply 
+  min-h-full 
+  flex items-center 
+  justify-center 
+  py-12 
+  px-6 
+  sm:px-6 
+  lg:px-36
+}
+.formGroupContainer {
+  @apply 
+  min-h-full 
+  flex items-center 
+  justify-center 
+  py-12 
+  px-6 
+  sm:px-6 
+  lg:px-36
+}
+
+.bannerLeft {
+  @apply 
+  flex-1
+  max-w-2xl
+  w-full
+  sm:justify-start
+}
+.bannerTitle {
+  @apply 
+  text-5xl
+  space-x-8
+  py-6
+  font-extralight 
+}
+.bannerRight {
+  background-size: cover;
+  background-image: url("cat.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  @apply 
+  flex-1
+  justify-end
+  h-[20rem]
+}
+
+.formGroup {
+  @apply 
+  max-w-[62rem] 
+  w-full 
+  space-y-8
+  pt-6
+  pb-12
+  my-auto
+  shadow-sm
+  border-2
+  border-zinc-900/10
+  shadow-zinc-900/10
+  rounded-md 
+}
+
+.title{
+  @apply 
+  mt-6 
+  text-center 
+  text-5xl 
+  font-extralight 
+  tracking-wide
+}
+
+.signUpForm {
+  @apply
+  mt-8
+  space-y-2
+  px-20
+}
+
+.inputGroup {
+  margin-top: 0;
+  margin-bottom: 40px;
+  @apply 
+  rounded-md  
+  -space-y-px
+  relative
+}
+
+.formSectionLabels {
+  @apply
+  pt-5
+  block
+}
+
+.assessButtonLabel {
+  @apply
+  mt-5
+}
+
+.input {
+  @apply 
+  appearance-none 
+  relative 
+  block 
+  w-full
+  mb-4
+  px-3 
+  py-2 
+  border 
+  shadow-sm
+  border-zinc-900/10
+  shadow-zinc-900/10
+  placeholder-zinc-900/50 
+  rounded-md
+  focus:outline-none  
+  focus:ring-1 
+  focus:ring-blue-600 
+  focus:z-10 
+  sm:text-sm
+}
+
+.button {
+  @apply
+  inline-flex 
+  justify-center 
+  w-full
+  rounded-md 
+  shadow-sm
+  shadow-zinc-900/10
+  text-sm
+  font-bold
+  text-zinc-50
+  px-2
+  py-2
+  bg-blue-600
+  hover:bg-yellow-300
+  max-w-[16rem] 
+}
+
+.linkBox {
+  @apply 
+  flex 
+  items-center 
+  pb-5
+}
+
+.linkDiv {
+  @apply 
+  flex 
+  items-center 
+  mx-auto
+}
+
+.error {
+  @apply
+  text-xs
+  text-red-500
+  inline-block
+  mx-auto
+  my-0
+  py-0
+}
